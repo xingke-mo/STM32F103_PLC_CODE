@@ -1003,7 +1003,6 @@ void  TX_Process(void)
 
 void RX_Process(char res)
 {
-    static u8 f = 1;    //ADD ´«ÈË¼Ç
     rx_data[0] = 0x7f & res;
 
     if(rx_data[0] == 0X05)

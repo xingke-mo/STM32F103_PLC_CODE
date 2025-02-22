@@ -204,7 +204,6 @@ void USB_To_USART_Send_Data(u8* data_buffer, u8 Nb_bytes)
 {
     u8 i;
     u8 res;
-    static u8 f = 1;  //ADD ´«ÈË¼Ç
 
     for(i = 0; i < Nb_bytes; i++)
     {
